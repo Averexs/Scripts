@@ -12,4 +12,4 @@ curl -fsSL https://download.docker.com/linux/debian/gpg |  gpg --dearmor -o /usr
  apt-get install docker-ce docker-ce-cli containerd.io
  curl -L "https://github.com/docker/compose/releases/latest/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
  chmod +x /usr/local/bin/docker-compose
- usermod -aG docker $USERdebian
+ usermod -aG docker $USER
