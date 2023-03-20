@@ -1,6 +1,6 @@
 # Scripts
 
-A few scripts that i've written to help install docker quickly on Debian and Ubuntu.
+A few scripts that i've written to help install docker quickly on Debian or Ubuntu.
 
 
 Debian:
