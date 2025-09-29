@@ -1,6 +1,6 @@
 # Scripts
 
-A few scripts that i've written to help install docker quickly on Debian or Ubuntu.
+A few scripts that i've written to help quickly install Docker on Debian or Ubuntu.
 
 
 Debian:
@@ -10,7 +10,6 @@ curl -L https://raw.githubusercontent.com/Averexs/Scripts/main/debian-docker-ins
 bash debian-docker-install.sh
 
  
-
  
 
 Ubuntu:
@@ -19,3 +18,19 @@ sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/main/ubuntu-docke
 
 sudo bash ubuntu-docker-install.sh
 
+
+
+Install Portainer:
+
+sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/main/ubuntu-docker-install.sh -o portainer-install.sh
+
+sudo bash portainer-install.sh
+
+
+
+
+Update Portainer:
+
+sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/refs/heads/main/update-portainer.sh -o update-portainer.sh
+
+sudo bash update-portainer.sh
