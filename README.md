@@ -22,7 +22,7 @@ sudo bash ubuntu-docker-install.sh
 
 Install Portainer:
 
-sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/main/ubuntu-docker-install.sh -o portainer-install.sh
+sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/refs/heads/main/portainer-install.sh -o portainer-install.sh
 
 sudo bash portainer-install.sh
 
