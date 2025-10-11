@@ -9,16 +9,15 @@ curl -L https://raw.githubusercontent.com/Averexs/Scripts/main/debian-docker-ins
 
 bash debian-docker-install.sh
 
+=============================================================================================================================== 
  
- 
-
 Ubuntu:
 
 sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/main/ubuntu-docker-install.sh -o ubuntu-docker-install.sh
 
 sudo bash ubuntu-docker-install.sh
 
-
+=============================================================================================================================== 
 
 Install Portainer:
 
@@ -26,8 +25,7 @@ sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/refs/heads/main/p
 
 sudo bash portainer-install.sh
 
-
-
+=============================================================================================================================== 
 
 Update Portainer:
 
