@@ -35,7 +35,7 @@ function create_template() {
     qm set $1 --sshkeys ${ssh_keyfile}
     #If you want to do password-based auth instaed
     #Then use this option and comment out the line above
-    qm set $1 --cipassword Rollingthunder99!
+    qm set $1 --cipassword YOURMOM123!
     #Add the user
     qm set $1 --ciuser ${username}
     #Resize the disk to 8G, a reasonable minimum. You can expand it more later.
