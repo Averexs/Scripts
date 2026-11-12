@@ -1,1 +1,1 @@
-docker run --name dockge --restart unless-stopped -p 5001:5001 -v /var/run/docker.sock:/var/run/docker.sock -v /var/docker/dockge/data:/app/data -v /var/docker/dockge/stacks:/opt/stacks -e DOCKGE_STACKS_DIR=/opt/stacks louislam/dockge:latest
+docker run --name dockge --d --restart unless-stopped -p 5001:5001 -v /var/run/docker.sock:/var/run/docker.sock -v /var/docker/dockge/data:/app/data -v /var/docker/dockge/stacks:/opt/stacks -e DOCKGE_STACKS_DIR=/opt/stacks louislam/dockge:latest
