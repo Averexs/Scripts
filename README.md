@@ -55,7 +55,7 @@ sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/main/update-porta
 sudo bash update-portainer.sh
 ```
 
-### 3️⃣ Update Dockge
+### 3️⃣ Install Dockge
 
 ```bash
 sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/refs/heads/main/dockge-install.sh \
