@@ -55,6 +55,14 @@ sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/main/update-porta
 sudo bash update-portainer.sh
 ```
 
+### 3️⃣ Update Dockge
+
+```bash
+sudo curl -L https://raw.githubusercontent.com/Averexs/Scripts/refs/heads/main/dockge-install.sh \
+  -o dockge-install.sh
+sudo bash dockge-install.sh
+```
+
 > **Result** – Docker (and optionally Portainer) is up and running.  
 > You can now use `docker` from the command line or open Portainer in your browser at `http://<your‑server-ip>:9000`.
 
